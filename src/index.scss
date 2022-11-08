@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "IRANSansWeb";
+  src: local("IRANSansWeb"),
+  url("/assets/font/iran_sans.ttf") format("truetype");
+  font-weight: bold;
+}
+$sky-color-start: #8a91e7;
+$sky-color-end: #ced1ef;
+
+$fontIRANSansWeb: "IRANSansWeb", sans-serif;
+
+
+body {
+  background: linear-gradient($sky-color-start, $sky-color-end);
+  min-height: 100vh;
+
+  margin: 0;
+  font-family: $fontIRANSansWeb !important;
+
+}
+
+h2{
+  font-family: $fontIRANSansWeb !important;
+
+}
